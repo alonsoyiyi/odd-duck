@@ -1,0 +1,49 @@
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ header .heroText {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+  }
+
+  hr{
+   max-width: 80vw;
+   height: 10px;
+    background-color: brown;
+  }
+  
+.container #images{
+    display: flex;
+    justify-content: space-around;
+    margin-block: 50px;
+}
+
+.container #images img{
+    width: 300px;
+    height: 300px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#buttons button{
+    width: 700px;
+    background-color: aqua;
+    font-family: "Poetsen One", sans-serif;
+}
+
+#results{
+    display: flex;
+    justify-content: center;
+    margin-block: 50px;
+    font-family: "Poetsen One", sans-serif;
+
+}
