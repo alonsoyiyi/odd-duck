@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odd Duck</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,16 +13,34 @@
 </head>
 <body>
     <header>
-        <h1 class="hero_text">Odd-Duck</h1>
-        
+        <h1 class="heroText">Odd-Duck</h1>
+        <hr>
     </header>
 
     <main>
+        <section class="container">
+            <section id="images" class="container">
+                <img src="" alt="" id="img1" class="colums">
+                <img src="" alt="" id="img2" class="colums">
+                <img src="" alt="" id="img3" class="colums">
+            </section>
+        </section>
 
+        <section id="buttons">
+            <button type="button" name="button" id="showResults" hidden>Ver resultados</button>
+            <button type="button" name="reset" id="reset" hidden>Reiniciar</button>
+        </section>
+
+        <section id="results">
+        </section>
+
+        <div>
+            <canvas id="myChart"></canvas>
+          </div>
     </main>
 
     <footer>
-
+        <script src="app.js"></script>
     </footer>
     
 </body>
