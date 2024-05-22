@@ -1,6 +1,6 @@
  body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:#F1FAB5 ;
+    background-color:#fafdeb ;
  }
 
  header .heroText {
@@ -15,17 +15,19 @@
   hr{
    max-width: 80vw;
    height: 10px;
-    background-color: brown;
+    background-color: rgb(73, 64, 73);
   }
   
 .container #images{
     display: flex;
     justify-content: space-around;
     margin-block: 50px;
-    border: 10px ridge violet; 
+    margin-inline: 30px;
+    border: 10px solid rgb(73, 64, 73); 
+    border-radius: 25px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url('./img/tio-sam.jpg');
+    background-image: url('./img/marron-c.jpg');
 }
 
 .container #images img{
@@ -42,12 +44,13 @@
 
 #buttons button{
     width: 700px;
-    background-color: aqua;
+    background-color: rgb(186, 255, 255);
     font-family: "Poetsen One", sans-serif;
 }
 
 .colums{
-    border: 10px ridge blue; 
+    border: 10px solid rgb(73, 64, 73); 
+    border-radius: 25px;
 }
 
 #results{
