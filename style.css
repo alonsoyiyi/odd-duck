@@ -1,62 +1,85 @@
- body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:#fafdeb ;
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #fafdeb;
  }
 
  header .heroText {
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 150px;
-    display: flex;
-    justify-content: center;
-  }
+     font-family: "Poetsen One", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 150px;
+     display: flex;
+     justify-content: center;
+ }
 
-  hr{
-   max-width: 80vw;
-   height: 10px;
-    background-color: rgb(73, 64, 73);
-  }
-  
-.container #images{
-    display: flex;
-    justify-content: space-around;
-    margin-block: 50px;
-    margin-inline: 30px;
-    border: 10px solid rgb(73, 64, 73); 
-    border-radius: 25px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-image: url('./img/marron-c.jpg');
+ hr {
+     max-width: 80vw;
+     height: 10px;
+     background-color: rgb(73, 64, 73);
+ }
+
+ .container #images {
+     display: flex;
+     justify-content: space-around;
+     margin-block: 50px;
+     margin-inline: 30px;
+     border: 10px solid rgb(73, 64, 73);
+     border-radius: 25px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     background-image: url('./img/marron-c.jpg');
+ }
+
+ .container #images:hover{
+    cursor: not-allowed;
+ }
+
+ .container #images img {
+     width: 300px;
+     height: 300px;
+ }
+
+ .container #images img:hover{
+    border: 50px solid rgb(73, 64, 73);
+    width: 220px;
+    height: 220px;
+    cursor: pointer;
+ }
+
+ #buttons {
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+ }
+
+ #buttons button {
+     width: 700px;
+     background-color: #f6dfb6;
+     font-family: "Poetsen One", sans-serif;
+     border: 5px solid rgb(73, 64, 73);
+     border-radius: 25px;
+     margin-bottom: 50px;
+ }
+
+ #buttons button:hover{
+    box-shadow: 0px 0px 15px 5px black;
+    cursor: pointer;
+
+ }
+
+ .colums {
+     border: 10px solid rgb(73, 64, 73);
+     border-radius: 25px;
+ }
+
+#myChart:hover{
+    cursor: crosshair;
 }
 
-.container #images img{
-    width: 300px;
-    height: 300px;
-  
-}
+ #results {
+     display: flex;
+     justify-content: center;
+     margin-block: 50px;
+     font-family: "Poetsen One", sans-serif;
 
-#buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-#buttons button{
-    width: 700px;
-    background-color: rgb(186, 255, 255);
-    font-family: "Poetsen One", sans-serif;
-}
-
-.colums{
-    border: 10px solid rgb(73, 64, 73); 
-    border-radius: 25px;
-}
-
-#results{
-    display: flex;
-    justify-content: center;
-    margin-block: 50px;
-    font-family: "Poetsen One", sans-serif;
-
-}
+ }
