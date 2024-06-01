@@ -83,7 +83,7 @@ const chosenProducts = {
         const list = document.createElement('ul');
         for (let i = 0; i < state.totalProducts.length; i++) {
             const firstLi = document.createElement('li');
-            const info = state.totalProducts[i].name + ' tiene ' + state.totalProducts[i].clicks + ' votos';
+            const info = state.totalProducts[i].name + ' tiene ' + state.totalProducts[i].clicks + ' votos y ' + state.totalProducts[i].views + ' vistas.';
             firstLi.textContent = info;
             list.appendChild(firstLi);
         }
